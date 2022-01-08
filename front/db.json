@@ -1,0 +1,46 @@
+{
+  "Products": [
+    {
+      "productId": 1,
+      "name": "Amason brand",
+      "manufacturer": "Amason brand",
+      "description": "360 degree swivel cord",
+      "price": 439
+    },
+    {
+      "productId": 2,
+      "name": "Remote car",
+      "manufacturer": "Toy car",
+      "description": "Children car engage play",
+      "price": 500
+    },
+    {
+      "productId": 3,
+      "name": "truck",
+      "manufacturer": "Toy truck",
+      "description": "For kids",
+      "price": 1020
+    },
+    {
+      "productId": 1001,
+      "name": "Air conditioner",
+      "manufacturer": "Lg",
+      "description": "Good cooling machine",
+      "price": 12000
+    },
+    {
+      "productId": 1002,
+      "name": "TV Led",
+      "manufacturer": "Samsung",
+      "description": "TV",
+      "price": 8000
+    },
+    {
+      "productId": 1003,
+      "name": "bus",
+      "manufacturer": "Toy bus",
+      "description": "For kids",
+      "price": 23000
+    }
+  ]
+}
