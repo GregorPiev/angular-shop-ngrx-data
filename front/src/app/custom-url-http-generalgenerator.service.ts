@@ -16,14 +16,15 @@ export class CustomUtlHttpGeneralGeneratorService extends DefaultHttpUrlGenerato
     entityName: string,
     _root: string): HttpResourceUrls {
     let resourceUrls = this.knownHttpResourceUrls[entityName];
-    if (entityName == 'Product') {
-      const url = 'http//localhost:3000/Products';
-      console.log(_root)
+
+    if (!resourceUrls) {
+      const nRoot = 'http://localhost:3001';
       _root = '';
       resourceUrls = {
-        entityResourceUrl: url,
-        collectionResourceUrl: url,
+        entityResourceUrl: `${nRoot}/${entityName}/`,
+        collectionResourceUrl: `${nRoot}/${this.myPluralizer.pluralize(entityName)}/`
       };
+
       this.registerHttpResourceUrls({ [entityName]: resourceUrls });
     }
 
